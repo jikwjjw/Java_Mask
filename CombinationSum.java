@@ -46,6 +46,10 @@ public class CombinationSum {
             lists.add(new ArrayList<Integer>(list));
         } else {
             for (int i = start; i < candidates.length; i++) {
+                // if (i>start && candidates[i] == candidates[i-1]){
+                //     continue; //每个数字在每个组合中只能使用一次
+                                 //先排序，然后使用同样的套路做这种题，递归回溯
+                // }
                 list.add(candidates[i]);
                 comProcess(i, candidates, target - candidates[i], list);
                 list.remove(list.size() - 1);
