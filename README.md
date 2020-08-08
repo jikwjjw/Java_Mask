@@ -8,3 +8,5 @@
 + [给定一个字符串 s 和一些长度相同的单词 words。找出 s 中恰好可以由 words 中所有单词串联形成的子串的起始位置。](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/FindSubstring.java)
 + [给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判断字符串是否有效。](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/IsValid.java)
 + [数独有效](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/IsValidSudoku.java)
++ [约瑟夫环](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/Joseph.java)
++ [给定一个包含非负整数的 m x n 网格，请找出一条从左上角到右下角的路径，使得路径上的数字总和为最小。](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/MinPathSum.class)
