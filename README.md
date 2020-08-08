@@ -7,3 +7,4 @@
 + [ 给定一个无重复元素的数组 candidates 和一个目标数 target ，找出 candidates 中所有可以使数字和为 target 的组合。](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/CombinationSum.java):递归回溯
 + [给定一个字符串 s 和一些长度相同的单词 words。找出 s 中恰好可以由 words 中所有单词串联形成的子串的起始位置。](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/FindSubstring.java)
 + [给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判断字符串是否有效。](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/IsValid.java)
++ [数独有效](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/IsValidSudoku.java)
