@@ -9,4 +9,4 @@
 + [给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判断字符串是否有效。](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/IsValid.java)
 + [数独有效](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/IsValidSudoku.java)
 + [约瑟夫环](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/Joseph.java)
-+ [给定一个包含非负整数的 m x n 网格，请找出一条从左上角到右下角的路径，使得路径上的数字总和为最小。](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/MinPathSum.class)
++ [给定一个包含非负整数的 m x n 网格，请找出一条从左上角到右下角的路径，使得路径上的数字总和为最小。](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/MinPathSum.java)
