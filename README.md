@@ -12,6 +12,7 @@
 + [给定一个包含非负整数的 m x n 网格，请找出一条从左上角到右下角的路径，使得路径上的数字总和为最小。](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/MinPathSum.java)
 + [给定一个排序数组，你需要在 原地 删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/RemoveDuplicates.java)
 + [二分查找法查找某字符](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/Search.java)
++ [0～n-1中缺失的数字](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/SearchII.java):边界条件判断
 + [给定一个 haystack 字符串和一个 needle 字符串，在 haystack 字符串中找出 needle 字符串出现的第一个位置 (从0开始)。如果不存在，则返回  -1。
 ](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/StrStr.java)
 + [机器人每次只能向下或者向右移动一步。机器人试图达到网格的右下角（在下图中标记为“Finish”）](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/UniquePaths.java)
