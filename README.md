@@ -19,3 +19,4 @@
 + [现在考虑网格中有障碍物。那么从左上角到右下角将会有多少条不同的路径？](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/UniquePathsWithObstacles.java)
 + [最大值更替](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/maxSubArray.class)
 + [字母全排列](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/%E5%85%A8%E6%8E%92%E5%88%97.java)
++ [和为s的两个数字](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/twoSum.java):双指针
