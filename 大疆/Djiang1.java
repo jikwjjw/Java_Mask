@@ -37,12 +37,12 @@ public class Djiang1 {
         sc.close();
         int[][] dp = new int[n + 1][x + 1];
         dp[0][0] = 0;
-        for (int i = 1; i < n; i++) {
+        for (int i = 1; i <= n; i++) {
             for (int j = 0; j <= x; j++) {
                 if (j >= v[i]) {
                     dp[i][j] = Math.max(dp[i - 1][j], dp[i - 1][j - v[i]] + w[i]);
                 } else {
-                    dp[i][j] = dp[i][j];
+                    dp[i][j] = dp[i-1][j];
                 }
             }
         }
