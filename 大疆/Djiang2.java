@@ -30,19 +30,19 @@ public class Djiang1 {
         int x = sc.nextInt();
         int[] w = new int[n + 1];//存放游戏
         int[] v = new int[n + 1];//每个游戏对应时长
-        for (int i = 1; i <= n; i++) {
+        for (int i = 1; i < n + 1; i++) {
             w[i] = sc.nextInt();
             v[i] = sc.nextInt();
         }
         sc.close();
         int[][] dp = new int[n + 1][x + 1];
         dp[0][0] = 0;
-        for (int i = 1; i <= n; i++) {
-            for (int j = 0; j <= x; j++) {
+        for (int i = 1; i < n + 1; i++) {
+            for (int j = 1; j < x + 1; j++) {
                 if (j >= v[i]) {
                     dp[i][j] = Math.max(dp[i - 1][j], dp[i - 1][j - v[i]] + w[i]);
                 } else {
-                    dp[i][j] = dp[i-1][j];
+                    dp[i][j] = dp[i - 1][j];
                 }
             }
         }
