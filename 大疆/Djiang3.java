@@ -3,41 +3,49 @@ package dajiang;
 import java.util.Scanner;
 
 /**
- * 小C平时最喜欢玩数字游戏，最近他碰到一道有趣的数字题，他和他的好朋友打赌，一定能在10分钟内解出这道题，成功完成，小C就可以得到好朋友送他的Switch游戏机啦，你能帮助小C赢得奖品吗？
- * 题目是这样的：给定一个非负的、字符串形式的整形数字，例如“12353789”，字符串的长度也就是整形数字的位数不超过10000位，并且字符串不会以0开头，小C需要挑选出其中K个数字（K小于字符串的长度）并删掉他们，使得剩余字符组成新的整数是最小的。
+ * 典型的0-1问题
+ * <p>
+ * <p>
+ * 题目描述：
+ * 有许多程序员都热爱玩游戏，而小J自称为游戏王，曾玩过几百种游戏，几乎所有能玩到的游戏大作都玩遍了。随着时间的推移，他发觉已经没有游戏
+ * 可以让他玩了！于是他想改玩一些古老的游戏，以成为真正的“游戏王”。他希望在接下来的一段时间内将过去出的游戏全部玩一遍，但是毕竟时间有限
+ * ，因此他感到很苦恼。于是他想到一个计划，他先将每个游戏标上一个成就值，同时对每个游戏都估算一个通关所需要的天数，他计划在未来X天内
+ * 让自己玩游戏的成就达到最大，那么他应该怎么做计划呢？（假设每个游戏最多只计划玩一遍，而且每个游戏必须玩完通关才能取得成就值，且通关每
+ * 个游戏最小时间单位是1天）
  */
-public class Djiang3 {
+public class Djiang1 {
+    /**
+     * 输入描述：
+     * 第一行输入两个整数N和X，中间用空格隔开，其中N表示游戏的数目N(1<=N<=10)，X表示计划玩游戏的总时间天数 (1<=X<=1000)。
+     * 第二行输入第1个游戏的成就值A1(0<=A1<=10000) 和 通关所需要花费时间B1天 (1<=Bi<=500) 中间用空格隔开。
+     * 第N+1行输入第N游戏的成就值An(0<=An<=10000) 和 通关所需要花费时间Bn天(1<=Bn<=500) 中间用空格隔开
+     * 输出描述：
+     * 可以达到成就之和的最大值。(2,2)[(10,1),(20,2)]->20
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String num = sc.nextLine();//获取字符串
-        String len = sc.nextLine();//获取字符串长度
-        System.out.println(Solution.removeKdigits(num, len));
-    }
-}
-
-class Solution {
-    /**
-     * @param num 第一行输入一串纯数字形式的字符串，组成一个正整数 // (71245323308,4)->1223308, (1683212,3)->1212,(100,1)->0
-     * @param len 第二行输入一个正整数K (K < 字符串的长度)
-     * @return 输出一个数字（字符串格式）
-     */
-    public static String removeKdigits(String num, String len) {
-        int k = Integer.parseInt(len);
-        StringBuilder sb = new StringBuilder(num);
-        while (k > 0) {
-            int i = 0;
-            while (sb.length() - 1 > i && sb.charAt(i + 1) >= sb.charAt(i)) {
-                i++;
+        int n = sc.nextInt();
+        int x = sc.nextInt();
+        int[] w = new int[n + 1];//存放游戏
+        int[] v = new int[n + 1];//每个游戏对应时长
+        for (int i = 1; i < n + 1; i++) {
+            w[i] = sc.nextInt();
+            v[i] = sc.nextInt();
+        }
+        sc.close();
+        int[][] dp = new int[n + 1][x + 1];
+        dp[0][0] = 0;
+        for (int i = 1; i < n + 1; i++) {
+            for (int j = 1; j < x + 1; j++) {
+                if (j >= v[i]) {
+                    dp[i][j] = Math.max(dp[i - 1][j], dp[i - 1][j - v[i]] + w[i]);
+                } else {
+                    dp[i][j] = dp[i - 1][j];
+                }
             }
-            sb.deleteCharAt(i);
-            k--;
         }
-        while (sb.length() != 0 && sb.charAt(0) == '0') {
-            sb.deleteCharAt(0);
-        }
-        if (sb.length() == 0) {
-            return "0";
-        }
-        return sb.toString();
+        System.out.println(dp[n][x]);
     }
 }
