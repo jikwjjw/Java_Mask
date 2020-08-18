@@ -21,4 +21,4 @@
 + [字母全排列](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/%E5%85%A8%E6%8E%92%E5%88%97.java)
 + [和为s的两个数字](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/twoSum.java):双指针
 + [和为s的两个数字II](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/FindContinuousSequence.java):滑动窗口
-+ [返回杨辉三角的第 k 行]()
++ [返回杨辉三角的第 k 行](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/GetRow.java) ：动态规划
