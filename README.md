@@ -23,4 +23,4 @@
 + [和为s的两个数字II](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/FindContinuousSequence.java):滑动窗口
 + [返回杨辉三角的第 k 行](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/GetRow.java) ：动态规划
 + [三角形最小路径和](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/MinimumTotal.java): 动态规划，缩减滚动一维数组
-+ [打家劫舍，隔一个取最大值](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/Rob.java):动态规划
++ [打家劫舍，隔一个取和](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/Rob.java):动态规划
