@@ -14,6 +14,7 @@
 + [给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判断字符串是否有效。](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/IsValid.java)
 + [数独有效](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/IsValidSudoku.java)
 + [约瑟夫环](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/Joseph.java)
++ [寻找重复数字](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/FindDuplicate.java):按照环形列表的思想做
 + [给定一个排序数组，你需要在 原地 删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/RemoveDuplicates.java)
 + [0～n-1中缺失的数字](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/SearchII.java):边界条件判断
 + [给定一个 haystack 字符串和一个 needle 字符串，在 haystack 字符串中找出 needle 字符串出现的第一个位置 (从0开始)。如果不存在，则返回  -1。
