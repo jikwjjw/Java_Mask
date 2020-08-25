@@ -25,4 +25,4 @@
 + [返回杨辉三角的第 k 行](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/GetRow.java) ：动态规划
 + [三角形最小路径和](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/MinimumTotal.java): 动态规划，缩减滚动一维数组
 + [打家劫舍，隔一个取和](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/Rob.java):动态规划
-+ [最短回文串：给定一个字符串 s，你可以通过在字符串前面添加字符将其转换为回文串。找到并返回可以用这种方式转换的最短回文串。](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/ShortestPalindrome.java)
++ [最短回文串：给定一个字符串 s，你可以通过在字符串前面添加字符将其转换为回文串。找到并返回可以用这种方式转换的最短回文串。](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/ShortestPalindrome.java)：通过next数组求
