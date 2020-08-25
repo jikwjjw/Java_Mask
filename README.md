@@ -34,6 +34,7 @@
 + [机器人每次只能向下或者向右移动一步。机器人试图达到网格的右下角（在下图中标记为“Finish”）](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/UniquePaths.java)动态规划
 + [现在考虑网格中有障碍物。那么从左上角到右下角将会有多少条不同的路径？](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/UniquePathsWithObstacles.java)
 + [给定一个包含非负整数的 m x n 网格，请找出一条从左上角到右下角的路径，使得路径上的数字总和为最小。](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/MinPathSum.java)
++ [最长上升子序列](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/LengthOfLIS.java):动态规划
 ------------------------------------------------
 + [最短回文串：给定一个字符串 s，你可以通过在字符串前面添加字符将其转换为回文串。找到并返回可以用这种方式转换的最短回文串。](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/ShortestPalindrome.java)：通过next数组求
 
