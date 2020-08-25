@@ -3,24 +3,23 @@
 + [JumpFloorII](https://github.com/jikwjjw/Java_Mask/blob/SwordOffice/JumpFloorII.java)：青蛙跳，转化成数列
 ---------------
 + [找到两个排序数组的中位数](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/%E6%89%BE%E5%88%B0%E4%B8%A4%E4%B8%AA%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B0/FMSA.java)：排序,双指针
------------------
++ [二分查找法查找某字符](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/Search.java)
+---------------------
 + [组合数字](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/%E6%B7%B1%E5%BA%A6%E9%81%8D%E5%8E%86%E5%92%8C%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%97/LetterCombinations.java)：深度遍历和组合数字
 + [找出所有相加之和为 n 的 k 个数的组合。组合中只允许含有 1 - 9 的正整数，并且每种组合中不存在重复的数字。](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/CombinationSum3.java)
 + [ 给定一个无重复元素的数组 candidates 和一个目标数 target ，找出 candidates 中所有可以使数字和为 target 的组合。](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/CombinationSum.java):递归回溯
 + [给定一个字符串 s 和一些长度相同的单词 words。找出 s 中恰好可以由 words 中所有单词串联形成的子串的起始位置。](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/FindSubstring.java)
 + [字母全排列](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/%E5%85%A8%E6%8E%92%E5%88%97.java)
---------------------------------------
+----------------------------------------
 + [给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判断字符串是否有效。](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/IsValid.java)
 + [数独有效](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/IsValidSudoku.java)
 + [约瑟夫环](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/Joseph.java)
 + [给定一个排序数组，你需要在 原地 删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/RemoveDuplicates.java)
-+ [二分查找法查找某字符](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/Search.java)
 + [0～n-1中缺失的数字](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/SearchII.java):边界条件判断
 + [给定一个 haystack 字符串和一个 needle 字符串，在 haystack 字符串中找出 needle 字符串出现的第一个位置 (从0开始)。如果不存在，则返回  -1。
 ](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/StrStr.java)
 
 + [最大值更替](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/maxSubArray.class)
-
 + [和为s的两个数字](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/twoSum.java):双指针
 + [和为s的两个数字II](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/FindContinuousSequence.java):滑动窗口
 ------------------------------------------------
