@@ -22,6 +22,7 @@
 + [最大值更替](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/maxSubArray.class)
 + [和为s的两个数字](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/twoSum.java):双指针
 + [和为s的两个数字II](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/FindContinuousSequence.java):滑动窗口
++ [移动零](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/MoveZeroes.java):双指针，快排思想
 ------------------------------------------------
 
 + [丑数](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/NthUglyNumber.class):动态规划
