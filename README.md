@@ -19,7 +19,7 @@
 + [0～n-1中缺失的数字](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/SearchII.java):边界条件判断
 + [给定一个 haystack 字符串和一个 needle 字符串，在 haystack 字符串中找出 needle 字符串出现的第一个位置 (从0开始)。如果不存在，则返回  -1。
 ](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/StrStr.java)
-
++ [前K个高频元素](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/TopKFrequent.java): map统计，转化成大根堆统计
 + [最大值更替](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/maxSubArray.class)
 + [和为s的两个数字](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/twoSum.java):双指针
 + [和为s的两个数字II](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/FindContinuousSequence.java):滑动窗口
