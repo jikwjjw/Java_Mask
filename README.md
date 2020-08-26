@@ -8,6 +8,7 @@
 + [组合数字](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/%E6%B7%B1%E5%BA%A6%E9%81%8D%E5%8E%86%E5%92%8C%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%97/LetterCombinations.java)：深度遍历和组合数字
 + [找出所有相加之和为 n 的 k 个数的组合。组合中只允许含有 1 - 9 的正整数，并且每种组合中不存在重复的数字。](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/CombinationSum3.java)
 + [给定一个无重复元素的数组 candidates 和一个目标数 target ，找出 candidates 中所有可以使数字和为 target 的组合。](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/CombinationSum.java):递归回溯
++ [分割等和子集](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/CanPartition.java):剪枝回溯，递归
 + [给定一个字符串 s 和一些长度相同的单词 words。找出 s 中恰好可以由 words 中所有单词串联形成的子串的起始位置。](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/FindSubstring.java)
 + [字母全排列](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/%E5%85%A8%E6%8E%92%E5%88%97.java)
 ----------------------------------------
