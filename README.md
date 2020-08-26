@@ -12,6 +12,7 @@
 + [字母全排列](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/%E5%85%A8%E6%8E%92%E5%88%97.java)
 ----------------------------------------
 + [给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判断字符串是否有效。](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/IsValid.java)
++ [字符串节码](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/DecodeString.java)
 + [数独有效](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/IsValidSudoku.java)
 + [约瑟夫环](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/Joseph.java)
 + [寻找重复数字](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/FindDuplicate.java):按照环形列表的思想做
