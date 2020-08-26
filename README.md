@@ -28,6 +28,7 @@
 + [移动零](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/MoveZeroes.java):双指针，快排思想
 + [找到所有数组中消失的数字](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/FindDisappearedNumbers.java)：取反
 + [和为K的子数组](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/SubarraySum.java)
++ [最短连续子数组](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/FindUnsortedSubarray.java):复制原数组，对比
 ------------------------------------------------
 
 + [丑数](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/NthUglyNumber.class):动态规划
