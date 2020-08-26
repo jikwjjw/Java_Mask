@@ -27,7 +27,7 @@
 + [和为s的两个数字II](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/FindContinuousSequence.java):滑动窗口
 + [移动零](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/MoveZeroes.java):双指针，快排思想
 + [找到所有数组中消失的数字](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/FindDisappearedNumbers.java)：取反
-+ [和为K的子数组](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/SubarraySum.java)
++ [和为K的子数组](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/SubarraySum.java) : 前缀和 + hash表优化
 + [最短连续子数组](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/FindUnsortedSubarray.java):复制原数组，对比
 ------------------------------------------------
 
