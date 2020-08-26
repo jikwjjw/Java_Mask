@@ -30,6 +30,7 @@
 + [返回杨辉三角的第 k 行](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/GetRow.java) ：动态规划
 + [三角形最小路径和](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/MinimumTotal.java): 动态规划，缩减滚动一维数组
 + [打家劫舍，隔一个取和](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/Rob.java):动态规划
++ [打家劫舍III,树有关](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/RobIII.java): 左右子树 + 动态规划
 + [完全平方数](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/NumSquares.java): 动态规划
 + [机器人每次只能向下或者向右移动一步。机器人试图达到网格的右下角（在下图中标记为“Finish”）](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/UniquePaths.java)动态规划
 + [现在考虑网格中有障碍物。那么从左上角到右下角将会有多少条不同的路径？](https://github.com/jikwjjw/Java_Mask_LetCode/blob/SwordOffice/UniquePathsWithObstacles.java)
